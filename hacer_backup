@@ -3,9 +3,9 @@
 nombre_backup="BACKUP.tar.gz"
 
 respaldo=(
-  "/home/damian/"
+  "/home"
+  "/etc"
   "/mnt"
-  "/mnt/segura"
 )
 
 destino=$(pwd)
