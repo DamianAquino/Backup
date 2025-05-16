@@ -1,1 +1,17 @@
+#!/bin/bash
 
+nombre_backup="BACKUP.tar.gz"
+
+respaldo=(
+  "/home/damian/"
+  "/mnt"
+  "/mnt/segura"
+)
+
+destino=$(pwd)
+firma=$(< README.md)
+fecha=$(date +'%Y-%m-%d_%H-%M-%S')
+
+tar -czf "$destino/$nombre_backup" "${respaldo[@]}"
+echo "Backup completado en: $destino/$nombre_backup"
+echo "@firma"
