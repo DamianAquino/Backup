@@ -1,1 +1,1 @@
-# Damian Aquino - Backup Automatico en Linux
+# Damian Aquino - Backup en Linux
